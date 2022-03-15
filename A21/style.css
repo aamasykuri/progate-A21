@@ -1,127 +1,111 @@
 body {
-    margin: 0;
-    font-family: "Lucida Grande";
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  margin: 0;
+  font-family: "Lucida Grande";
+}
 
-  .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .logo {
-    width: 124px;
-    margin-top: 20px;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-left {
-    float: left;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-right {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
-  }
-  
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+a {
+  text-decoration: none;
+}
 
-  /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-  }
-  
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  footer img {
-    width: 125px;
-  }
-  
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
 /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  footer p{
-    color: #b3aeb5;
-    font-size: 12px;
-  }
-  
-  
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
 /* Ini dikerjakan oleh Ahmad Agung Masykuri */
-  footer {
-    padding-top: 30px;
-  }
-  
-  
-  /* Ini awal di kerjakan oleh ahmad sibly Style dari lesson wrapper */
-.lesson-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
+.header-left {
+  float: left;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+footer img {
+  width: 125px;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+/* Ini dikerjakan oleh Ahmad Agung Masykuri */
+footer {
+  padding-top: 30px;
+}
+
+/* Ini dikerjakan oleh Ardhana Swareska Reswara */
+.hero-section {
+  width: 1170px;
+  padding: 0 15px;
+  display: inline-block;
+  top: 300px;
+}
+
+.top-wrapper {
+  background-image: url(../A21/img/background.jpg);
+  background-size: cover;
+  color: white;
   text-align: center;
-}
-.heading {
-    color: #5f5d60;
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-.heading h2{
-    font-weight: normal;
+  margin: 0 auto;
+  height: 500px;
+  padding-top: 100px;
 }
 
-.lesson {
-    float: left;
-    width: 25%;
-}
-.lesson-icon{
-    position: relative;
-    padding-bottom: 20px;
-}
-.lesson-icon img{
-    width: 250px;
-}
-.lesson-title {
-    position: absolute;
-    top: auto;
+.top-wrapper h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
 }
 
-.lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
-}
-.lesson-icon button{
-    position: absolute;
-    top: 140px;
-    left: 75px;
-    color: #222222;
-    background-color: rgb(255, 255, 255);
-    padding: 14px 24px;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
-    font-weight: 700;
-}
-.lesson-icon button:hover {
-  background-color: #222222;
-  color: rgb(255, 255, 255);
+.btn-flexible {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
 }
 
-  /* Ini akhir di kerjakan oleh ahmad sibly Style dari lesson wrapper */
+.btn-flexible:hover {
+  opacity: 0.8;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+/* Batas akhir yang dikerjakan oleh Ardhana Swareska Reswara */
