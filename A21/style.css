@@ -67,6 +67,63 @@ footer {
   padding-top: 30px;
 }
 
+/* Ini awal di kerjakan oleh ahmad sibly Style dari lesson wrapper */
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  color: #5f5d60;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lesson-icon {
+  position: relative;
+  padding-bottom: 20px;
+}
+.lesson-icon img {
+  width: 250px;
+}
+.lesson-title {
+  position: absolute;
+  top: auto;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+.lesson-icon button {
+  position: absolute;
+  top: 140px;
+  left: 75px;
+  color: #222222;
+  background-color: rgb(255, 255, 255);
+  padding: 14px 24px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.lesson-icon button:hover {
+  background-color: #222222;
+  color: rgb(255, 255, 255);
+}
+
+/* Ini akhir di kerjakan oleh ahmad sibly Style dari lesson wrapper */
+
 /* Ini dikerjakan oleh Ardhana Swareska Reswara */
 .hero-section {
   width: 1170px;
@@ -91,13 +148,14 @@ footer {
 }
 
 .btn-flexible {
-  padding: 12px 24px;
+  padding: 15px 30px;
   color: black;
   display: inline-block;
   opacity: 1;
   border-radius: 20px;
   background-color: white;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .btn-flexible:hover {
