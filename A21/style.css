@@ -8,8 +8,8 @@ a {
 }
 
 .container {
-  width: 1170px;
-  padding: 0 15px;
+  max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -126,10 +126,10 @@ footer {
 
 /* Ini dikerjakan oleh Ardhana Swareska Reswara */
 .hero-section {
-  width: 1170px;
   padding: 0 15px;
   display: inline-block;
   top: 300px;
+  margin: 0 auto;
 }
 
 .top-wrapper {
@@ -166,4 +166,31 @@ footer {
   margin: 20px 0;
 }
 
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  color: black;
+  font-weight: bold;
+  padding: 15px 40px;
+  background-color: grey;
+  cursor: pointer;
+  box-shadow: 0 7px black;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
 /* Batas akhir yang dikerjakan oleh Ardhana Swareska Reswara */
